@@ -150,3 +150,7 @@ server <- function(input, output) {
 
 # Run the application 
 shinyApp(ui = ui, server = server)
+
+#library(rsconnect)
+#rsconnect::deployApp('~/Desktop/GitHub projects/ExStream dosing/')
+
